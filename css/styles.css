@@ -27,6 +27,7 @@ body {
 main {
     background-color: var(--color-dark-blue);
     border-radius: 2rem;
+    box-sizing: border-box;
     padding: 2rem;
     width: 412px;
 }
