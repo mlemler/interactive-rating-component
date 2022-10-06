@@ -1,18 +1,18 @@
 @import "fonts.css";
 
 :root {
-    --color-white: hsl(0, 0%, 100%);
+    --color-dark-blue: hsl(213, 19%, 18%);
     --color-light-grey: hsl(217, 12%, 63%);
-    --medium-grey: hsl(216, 12%, 54%);
-    --dark-blue: hsl(213, 19%, 18%);
-    --very-dark-blue: hsl(216, 12%, 8%);
-    --orange: hsl(25, 97%, 53%);
+    --color-medium-grey: hsl(216, 12%, 54%);
+    --color-orange: hsl(25, 97%, 53%);
+    --color-very-dark-blue: hsl(216, 12%, 8%);
+    --color-white: hsl(0, 0%, 100%);
 }
 
 
 body {
     align-items: center;
-    background-color: var(--very-dark-blue);
+    background-color: var(--color-very-dark-blue);
     color: var(--color-white);
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@ body {
 }
 
 main {
-    background-color: var(--dark-blue);
+    background-color: var(--color-dark-blue);
     border-radius: 2rem;
     padding: 2rem;
     width: 412px;
@@ -36,10 +36,10 @@ p {
 }
 
 button {
-    background-color: var(--orange);
-    border: solid var(--orange) 1px;
+    background-color: var(--color-orange);
+    border: solid var(--color-orange) 1px;
     border-radius: 3rem;
-    color: var(--white);
+    color: var(--color-white);
     letter-spacing: .2em;
     margin-top: 1rem;
     padding: 1rem;
@@ -49,7 +49,7 @@ button {
 
 .circle {
     align-items: center;
-    background-color: var(--medium-grey);
+    background-color: var(--color-medium-grey);
     border-radius: 50%;
     display: inline-flex;
     height: 3rem;
