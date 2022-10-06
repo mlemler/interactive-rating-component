@@ -35,6 +35,18 @@ p {
     color: hsl(217, 12%, 63%);
 }
 
+button {
+    background-color: var(--orange);
+    border: solid var(--orange) 1px;
+    border-radius: 3rem;
+    color: var(--white);
+    letter-spacing: .2em;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    width: 100%;
+}
+
 .circle {
     align-items: center;
     background-color: var(--medium-grey);
