@@ -38,7 +38,7 @@ p {
 
 button {
     background-color: var(--color-orange);
-    border: solid var(--color-orange) 1px;
+    border: none;
     border-radius: 3rem;
     color: var(--color-white);
     letter-spacing: .2em;
@@ -46,6 +46,11 @@ button {
     padding: 1rem;
     text-transform: uppercase;
     width: 100%;
+}
+
+button:hover {
+    background-color: var(--color-white);
+    color: var(--color-orange);
 }
 
 .circle {
@@ -56,6 +61,11 @@ button {
     height: 3rem;
     justify-content: center;
     width: 3rem;
+}
+
+.circle:hover {
+    background-color: var(--color-orange);
+    cursor: pointer;
 }
 
 .rating {
