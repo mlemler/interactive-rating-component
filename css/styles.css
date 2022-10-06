@@ -1,20 +1,31 @@
 @import "fonts.css";
 
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --orange: hsl(25, 97%, 53%);
+}
+
+
 body {
     align-items: center;
-    background-color: hsl(216, 12%, 8%);
-    color: hsl(0, 0%, 100%);
+    background-color: var(--very-dark-blue);
+    color: var(--color-white);
     display: flex;
     flex-direction: column;
     font-family: 'Overpass', sans-serif;
     font-size: 16px;
     justify-content: center;
+    line-height: 1.5;
     margin: 0;
     min-height: 100vh;
 }
 
 main {
-    background-color: hsl(213, 19%, 18%);
+    background-color: var(--dark-blue);
     border-radius: 2rem;
     padding: 2rem;
     width: 412px;
@@ -22,6 +33,21 @@ main {
 
 p {
     color: hsl(217, 12%, 63%);
+}
+
+.circle {
+    align-items: center;
+    background-color: var(--medium-grey);
+    border-radius: 50%;
+    display: inline-flex;
+    height: 3rem;
+    justify-content: center;
+    width: 3rem;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
 }
 
 #thank-you {
