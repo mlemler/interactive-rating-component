@@ -24,6 +24,10 @@ p {
     color: hsl(217, 12%, 63%);
 }
 
+#thank-you {
+    display: none;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
