@@ -55,7 +55,7 @@ button:hover {
 
 .circle {
     align-items: center;
-    background-color: var(--color-medium-grey);
+    background-color: var(--color-very-dark-blue);
     border-radius: 50%;
     display: inline-flex;
     height: 3rem;
@@ -63,7 +63,8 @@ button:hover {
     width: 3rem;
 }
 
-.circle:hover {
+.circle:hover,
+input[type="radio"]:checked + label .circle:hover {
     background-color: var(--color-orange);
     cursor: pointer;
 }
