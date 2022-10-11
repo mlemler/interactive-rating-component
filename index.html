@@ -22,14 +22,21 @@
             Please let us know how we did with your support request. All feedback is appreciated
             to help us improve our offering!
         </p>
-        <div class="rating">
-            <span class="circle">1</span>
-            <span class="circle">2</span>
-            <span class="circle">3</span>
-            <span class="circle">4</span>
-            <span class="circle">5</span>
-        </div>
-        <button type="submit">Submit</button>
+        <form>
+            <div class="rating-container">
+                <input type="radio" name="rating" id="one">
+                <label for="one"><span class="circle">1</span></label>
+                <input type="radio" name="rating" id="two">
+                <label for="two"><span class="circle">2</span></label>
+                <input type="radio" name="rating" id="three">
+                <label for="three"><span class="circle">3</span></label>
+                <input type="radio" name="rating" id="four">
+                <label for="four"><span class="circle">4</span></label>
+                <input type="radio" name="rating" id="five">
+                <label for="five"><span class="circle">5</span></label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
     </div>
     <!-- Rating state end -->
 

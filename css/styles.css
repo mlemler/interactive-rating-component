@@ -68,9 +68,17 @@ button:hover {
     cursor: pointer;
 }
 
-.rating {
+.rating-container {
     display: flex;
     justify-content: space-between;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked + label .circle {
+    background-color: var(--color-light-grey);
 }
 
 #thank-you {
