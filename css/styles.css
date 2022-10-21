@@ -12,6 +12,10 @@
     --color-main: hsl(215, 27%, 12%);
 }
 
+html {
+    font-size: min(4vw, 16px);
+}
+
 
 body {
     align-items: center;
@@ -20,7 +24,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Overpass', sans-serif;
-    font-size: 16px;
     justify-content: center;
     line-height: 1.5;
     margin: 0;
