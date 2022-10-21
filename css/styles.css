@@ -109,6 +109,10 @@ input[type="radio"]:checked + label .circle {
     padding: .3rem 1rem;
 }
 
+.thank-you-text {
+    margin: 0;
+}
+
 .attribution {
     font-size: 11px;
     margin-top: .75rem;
