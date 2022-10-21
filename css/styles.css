@@ -32,6 +32,10 @@ main {
     width: 412px;
 }
 
+h1 {
+    margin: 1.5rem 0 1rem;
+}
+
 p {
     color: hsl(217, 12%, 63%);
 }
@@ -80,6 +84,21 @@ input[type="radio"] {
 
 input[type="radio"]:checked + label .circle {
     background-color: var(--color-light-grey);
+}
+
+.thank-you {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.rating-result {
+    background-color: var(--color-medium-grey);
+    border-radius: 1rem;
+    color: var(--color-orange);
+    margin: 2rem 0 1rem;
+    padding: .2rem 1rem;
 }
 
 .attribution {
