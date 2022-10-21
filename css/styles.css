@@ -7,6 +7,8 @@
     --color-orange: hsl(25, 97%, 53%);
     --color-very-dark-blue: hsl(216, 12%, 8%);
     --color-white: hsl(0, 0%, 100%);
+
+    --color-main: hsl(215, 27%, 12%);
 }
 
 
@@ -25,7 +27,7 @@ body {
 }
 
 main {
-    background-color: var(--color-dark-blue);
+    background-color: var(--color-main);
     border-radius: 2rem;
     box-sizing: border-box;
     padding: 2rem;
@@ -37,7 +39,7 @@ h1 {
 }
 
 p {
-    color: hsl(217, 12%, 63%);
+    color: var(--color-light-grey);
 }
 
 button {
@@ -55,22 +57,18 @@ button {
 button:hover {
     background-color: var(--color-white);
     color: var(--color-orange);
+    cursor: pointer;
 }
 
 .circle {
     align-items: center;
-    background-color: var(--color-very-dark-blue);
+    background-color: var(--color-dark-blue);
     border-radius: 50%;
+    color: var(--color-light-grey);
     display: inline-flex;
     height: 3rem;
     justify-content: center;
     width: 3rem;
-}
-
-.circle:hover,
-input[type="radio"]:checked + label .circle:hover {
-    background-color: var(--color-orange);
-    cursor: pointer;
 }
 
 .rating-container {
@@ -78,12 +76,20 @@ input[type="radio"]:checked + label .circle:hover {
     justify-content: space-between;
 }
 
+form .circle:hover,
+input[type="radio"]:checked + label .circle:hover {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    cursor: pointer;
+}
+
 input[type="radio"] {
     display: none;
 }
 
 input[type="radio"]:checked + label .circle {
-    background-color: var(--color-light-grey);
+    background-color: var(--color-medium-grey);
+    color: var(--color-white);
 }
 
 .thank-you {
@@ -94,7 +100,7 @@ input[type="radio"]:checked + label .circle {
 }
 
 .rating-result {
-    background-color: var(--color-medium-grey);
+    background-color: var(--color-dark-blue);
     border-radius: 1rem;
     color: var(--color-orange);
     margin: 2rem 0 1rem;
