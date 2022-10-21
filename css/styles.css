@@ -8,6 +8,7 @@
     --color-very-dark-blue: hsl(216, 12%, 8%);
     --color-white: hsl(0, 0%, 100%);
 
+    /* A similar color seems to be missing in the style-guide.md */
     --color-main: hsl(215, 27%, 12%);
 }
 
