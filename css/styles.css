@@ -35,7 +35,7 @@ main {
     border-radius: 2rem;
     box-sizing: border-box;
     padding: 2rem;
-    width: 412px;
+    max-width: min(90vw, 412px);
 }
 
 h1 {
@@ -52,6 +52,7 @@ button {
     border: none;
     border-radius: 3rem;
     color: var(--color-white);
+    font-size: .8rem;
     letter-spacing: .2em;
     padding: 1rem;
     text-transform: uppercase;
@@ -70,9 +71,9 @@ button:hover {
     border-radius: 50%;
     color: var(--color-light-grey);
     display: inline-flex;
-    height: 3rem;
+    height: min(10vw, 3rem);
     justify-content: center;
-    width: 3rem;
+    width: min(10vw, 3rem);
 }
 
 .rating-container {
@@ -117,7 +118,7 @@ input[type="radio"]:checked + label .circle {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: .75rem;
     margin-top: .75rem;
 }
 .attribution a {
