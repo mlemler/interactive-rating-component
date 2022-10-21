@@ -104,7 +104,7 @@ input[type="radio"]:checked + label .circle {
     border-radius: 1rem;
     color: var(--color-orange);
     margin: 2rem 0 1rem;
-    padding: .2rem 1rem;
+    padding: .3rem 1rem;
 }
 
 .attribution {
